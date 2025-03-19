@@ -1,6 +1,6 @@
 {
   "name": "env-swap",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Interactive environment file switcher",
   "type": "module",
   "main": "env-swap.js",
