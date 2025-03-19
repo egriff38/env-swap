@@ -16,5 +16,9 @@
     "switcher"
   ],
   "author": "egriff38",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/egriff38/env-swap.git"
+  }
 }
