@@ -1,0 +1,20 @@
+{
+  "name": "env-swap",
+  "version": "1.0.0",
+  "description": "Interactive environment file switcher",
+  "main": "env-swap.js",
+  "bin": {
+    "env-swap": "env-swap.js"
+  },
+  "dependencies": {
+    "blessed": "^0.1.81"
+  },
+  "keywords": [
+    "env",
+    "environment",
+    "dotenv",
+    "switcher"
+  ],
+  "author": "egriff38",
+  "license": "MIT"
+}
