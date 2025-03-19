@@ -15,15 +15,31 @@ An interactive terminal-based environment file switcher that helps you manage mu
 npm install -g env-swap
 ```
 
+Also expects git to be installed.
+
 ## Usage
+
+Expects `.env` to have blocked sections like
+
+```
+NODE_ENV=Development
+USER=egriff38
+
+## Dev
+API_TOKEN=ABC123
+
+## Staging
+# API_TOKEN=XYZ890
+
+```
 
 1. Navigate to your project directory containing your `.env` files
 2. Run the command:
    ```bash
    env-swap
    ```
-3. Use the arrow keys to navigate through your environment files
-4. Press Enter to select an environment file
+3. Use the arrow keys and space bar to select which blocks should be commented
+4. Press Enter to apply the block commenting and exit, or
 5. Press q to quit
 
 ## Development
