@@ -2,12 +2,10 @@
   "name": "env-swap",
   "version": "1.0.2",
   "description": "Interactive environment file switcher",
+  "type": "module",
   "main": "env-swap.js",
   "bin": {
     "env-swap": "env-swap.js"
-  },
-  "dependencies": {
-    "blessed": "^0.1.81"
   },
   "keywords": [
     "env",
@@ -20,5 +18,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/egriff38/env-swap.git"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "inquirer": "^12.5.0"
   }
 }
